@@ -14,7 +14,7 @@ Producing  data to  a topic:
 
 Consuming data from a topic:
 
-  docker exec -it 90c0de9bb8c9 kafka-console-consumer --from-beginning --topic quickstart-events --bootstrap-server localhost:9092
+  docker exec -it <kafka_container_id> kafka-console-consumer --from-beginning --topic quickstart-events --bootstrap-server localhost:9092
 
   ![image](https://github.com/user-attachments/assets/c4b63d71-28b8-47e2-b31e-131a8f253084)
 
